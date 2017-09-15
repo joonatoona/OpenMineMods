@@ -2,7 +2,7 @@ import Utils.Logger as Logger
 from locale import getdefaultlocale
 
 translations = {
-      "en_US": {
+    "en_US": {
 
         # SECTION PROMPTS
         "prompt.mmc": "Please select your MultiMC folder.",
@@ -54,14 +54,14 @@ https://github.com/joonatoona/OpenMineMods/blob/master/ExampleAnalytics.md",
         "title.settings": "OpenMineMods Settings"
     },
 
-     "ita_IT": {
+    "ita_IT": {
 
         # SECTION PROMPTS
         "prompt.mmc": "Seleziona la cartella contenente MultiMC.",
         "prompt.delete": "Sei sicuro di voler eliminare {}?",
         "prompt.update":
 "Una nuova versione di OpenMineMods è disponibile!\n\
-Vorresti aggiornare a v{}?",
+Vorresti aggiornare alla v{}?",
         "prompt.update.restart": "Per favore riavvia OpenMineMods per finire l'aggiornamento!",
         "prompt.analytics":
 "Vorresti attivare le statistiche base?\n\
