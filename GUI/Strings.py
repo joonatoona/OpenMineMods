@@ -2,7 +2,7 @@ import Utils.Logger as Logger
 from locale import getdefaultlocale
 
 translations = {
-     "en_US": {
+      "en_US": {
 
         # SECTION PROMPTS
         "prompt.mmc": "Please select your MultiMC folder.",
@@ -54,7 +54,7 @@ https://github.com/joonatoona/OpenMineMods/blob/master/ExampleAnalytics.md",
         "title.settings": "OpenMineMods Settings"
     },
 
-	"ita_IT": {
+     "ita_IT": {
 
         # SECTION PROMPTS
         "prompt.mmc": "Seleziona la cartella contenente MultiMC.",
