@@ -34,3 +34,12 @@ coll = COLLECT(exe,
                strip=False,
                upx=True,
                name='OpenMineMods')
+app = BUNDLE(coll,
+             name='OpenMineMods.app',
+             icon='OMM.icns',
+             bundle_identifier=None,
+             info_plist={
+                 'NSHighResoulutionCapable': True,
+                 },
+             )
+
