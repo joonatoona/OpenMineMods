@@ -41,7 +41,7 @@ def directoryBox(parent, text):
 
 def makeIconButton(parent, icon, text):
     button = QPushButton(parent)
-    button.setIcon(QIcon("Assets/{}.svg".format(icon)))
+    button.setIcon(QIcon(path.join(getInstallDir(), "Assets/{}.svg".format(icon))))
     button.setIconSize(QSize(24, 24))
     button.setToolTip(text)
     return button
